@@ -1,2 +1,2 @@
 # pokedex2DSA
-Pokedex criada com .Net MVC
+Pokedex criada com .Net MVC C#
