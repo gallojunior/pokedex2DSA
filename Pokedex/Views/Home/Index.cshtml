@@ -1,4 +1,4 @@
-﻿@model Pokemon;
+﻿@model List<Pokemon>;
 @{
     ViewData["Title"] = "Home";
 }
@@ -8,7 +8,9 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
+@foreach (var pokemon in Model){
 <p>
-    @Model.Numero - @Model.Nome
+    @pokemon.Numero - @pokemon.Nome
 </p>
 
+}
